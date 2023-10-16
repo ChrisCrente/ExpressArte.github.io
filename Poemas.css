@@ -234,10 +234,13 @@ z-index: 20;
     
 
 .quadrado {
-    width: 40%;
+    
     position: relative;
+   width: 640px;
+
    
     height: 600px;
+    
     background: #ffffff;
     display: block; 
     margin-left: auto; 
