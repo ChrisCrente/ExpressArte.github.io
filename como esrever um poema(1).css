@@ -39,7 +39,7 @@ position: relative;
   width: 16%;
   display: hidden;
   max-width: 271px;
-  background-color: hwb(0 24% 75% / 0.567);
+  background-color: hwb(0 24% 75% / 0.336);
   position: absolute;
   height: 100%;
   overflow: auto;
@@ -62,7 +62,7 @@ border-bottom: 1px solid #555; /* Adiciona a linha separadora entre os itens */
   padding: 15px 20px;
   text-decoration: none;
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.637);
 }
 
 .menu-item:hover {
@@ -237,11 +237,11 @@ z-index: 20;
 
 
 
-.matheus {
+.poema {
     width: 640px;
     max-width: 640px;
     position: relative;
-    height: 132vh;
+    height: 94vh;
     background: #ffffff;
     display: block; 
     margin-left: auto; 
@@ -249,40 +249,53 @@ z-index: 20;
     margin-top: 90px;
     box-sizing: border-box;
     border-radius: 12px;
-    font-size: 20px;
-    
+    padding-left: 20px;
     padding-top: 2%;
-    padding-right: 39px;
     font-family: 'Cuprum', sans-serif;
     box-shadow: 1px 3px 9px 0.1px black;
-   
+    border-bottom: solid 92px #ffffff;
   
     
   }
 
-.mtimg {
-
-    position: absolute;
-    left: 15%;
-    top: 15%;
-    width: 140%;
-}
 
 
 
-.mtpoema {
-  position: relative;
- font-size: 19px;
-  left: 19px;
-  top: 49%;
-  
-  
+.poematxt {
+  width: 90%;
+  font-size: 17px;
+ 
+  text-align: left;
   
 
 }
-.titulomt {
-  position: relative;
-left: 5%;
-
-
-}
+.acessar {
+    font-family: 'Sarala' , sans-serif;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 0.1px solid #000000 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 14px;
+    width: 190px;
+    height: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px #000000;
+    margin-left: 33%;
+    cursor: pointer;
+    
+    }
+ 
+ .acessar:hover {background-color: #585858;}
+ 
+ .acessar:active {
+ background-color: #5e5e5e;
+ transform: translateY(2px);
+ }
+ 

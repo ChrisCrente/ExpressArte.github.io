@@ -39,7 +39,7 @@ position: relative;
   width: 16%;
   display: hidden;
   max-width: 271px;
-  background-color: hwb(0 24% 75% / 0.336);
+  background-color: hwb(0 24% 75% / 0.567);
   position: absolute;
   height: 100%;
   overflow: auto;
@@ -62,7 +62,7 @@ border-bottom: 1px solid #555; /* Adiciona a linha separadora entre os itens */
   padding: 15px 20px;
   text-decoration: none;
   display: block;
-  color: rgba(255, 255, 255, 0.637);
+  color: rgb(255, 255, 255);
 }
 
 .menu-item:hover {
@@ -263,7 +263,8 @@ z-index: 20;
 
 .contotxt {
   width: 90%;
-  font-size: 17px;
+  font-size: 16px;
+  max-width: 90%;
  
   text-align: left;
   

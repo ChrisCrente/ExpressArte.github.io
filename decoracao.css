@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/twentytwelve-slab');
-body {background-image: url("/sobrenos1.jpg");
+body {background-image: url(inicio3.jpg);
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -9,7 +9,80 @@ body {background-image: url("/sobrenos1.jpg");
 
 
 
-
+.conteudo {
+    text-align: center; 
+    padding: 100px;
+    color: white;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-lateral img {
+  width: 70px; 
+  height: auto; 
+  margin: auto;
+  width: 80px;
+  top: 0;
+  left: 0;
+  }
+  
+  .menu-logo {
+  width: 80px; 
+  height: auto; 
+  margin: auto;
+  margin-top: 43px;
+  width: 80px;
+  }
+  
+  .site {
+  position: relative;
+  }
+  
+  .menu-lateral {
+    margin-top: -4%;
+    padding-bottom: 4%;
+    padding-top: 6%;
+   
+    width: 16%;
+    display: hidden;
+    max-width: 271px;
+    background-color: hwb(0 24% 75% / 0.567);
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+    color: rgba(0, 0, 0, 0.699);
+  }
+  
+  .menu-lateral-filho {
+    position: fixed;
+    width: 16%;
+    max-width: 271px;
+    top: 40px;
+  }
+  
+  .menu li {
+  padding: 10px;
+  border-bottom: 1px solid #555; /* Adiciona a linha separadora entre os itens */
+  }
+  
+  .menu-item {
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+  
+  .menu-item:hover {
+    background-color: #55555560;
+  }
+  
+  
+  
+  .conteudo {
+    margin-left: 250px;
+    padding: 20px;}
 
 
 
@@ -33,7 +106,9 @@ body {background-image: url("/sobrenos1.jpg");
     max-width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    
+    background-color: #00000080;
+    background-size: 40vh;
+   
 }
 
 
@@ -42,13 +117,14 @@ body {background-image: url("/sobrenos1.jpg");
     color: #ffffff;
     height: auto;
     margin-top: 2%;
-    margin-left: 3%;
+    margin-left: 17%;
+    
 }
 
 #texto1 {
     flex: 1;
-    margin-left: 5%;
-    font-size: 24px;
+    margin-left: 3%;
+    font-size: 20px;
     font-family: 'Twentytwelve Slab', sans-serif;
     margin-bottom: 1%;
     color: #ffffff;                   
@@ -63,6 +139,7 @@ body {background-image: url("/sobrenos1.jpg");
     padding: 20px;
     box-sizing: border-box;
     text-align: right;
+    background-color: #0000007c;
 }
 #foto2 {
     max-width: 50%;
@@ -73,7 +150,7 @@ body {background-image: url("/sobrenos1.jpg");
 #texto2 {
     flex: 1;
     margin-right: 5%; /* Altera a margem para o lado direito */
-    font-size: 24px; /* Tamanho da letra aumentado para 24 pixels (você pode ajustar o valor conforme necessário) */
+    font-size: 20px; /* Tamanho da letra aumentado para 24 pixels (você pode ajustar o valor conforme necessário) */
     font-family: 'Twentytwelve Slab', sans-serif;
     color: #ffffff;   
 }
